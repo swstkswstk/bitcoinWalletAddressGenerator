@@ -17,4 +17,10 @@ body {
   padding: 0;
   box-shadow: -15px -15px 5px rgb(208, 206, 206);
   border-radius: 10px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.container:hover{
+  transform: scale(1.05);
+
 }
